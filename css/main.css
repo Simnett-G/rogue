@@ -1,0 +1,143 @@
+/***** BASE STYLES *****/
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: 2b2b2b;
+}
+
+/***** GRID *****/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.half-width {
+  width: 600px;
+  float: left;
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+/***** HEADER *****/
+
+header span {
+  height: 800px;
+  color: #77a466;
+}
+
+h1 {
+  text-transform: uppercase;
+  padding: 55px 0px 0px 0px;
+}
+
+header nav {
+  float: right;
+  padding: 75px 0px;
+}
+
+header nav ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+header nav ul li {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 0 10px;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: #77a446;
+}
+
+img#header-image {
+  border-top: 5px solid #77a466;
+  border-bottom: 5px solid #77a466;
+}
+
+/***** WELCOME *****/
+
+#welcome {
+  height: 150px;
+  line-height: 25px;
+}
+
+h2 {
+  color: #77a466;
+  text-transform: uppercase;
+}
+
+/***** FOOTER *****/
+
+#footer {
+
+}
+
+#specials.third-width {
+    width: 400px;
+    height: 200px;
+    float: left;
+    border-bottom: 1px solid #dedbdc;
+    border-top: 1px solid #dedbdc;
+    box-sizing: border-box;
+    border-right: 1px solid #dedbdc;
+    text-align: left;
+}
+
+footer ul li {
+  text-transform: capitalize;
+  text-decoration: none;
+  text-align: left;
+  color: #77a466;
+  list-style:none;
+  line-height: 30px;
+  padding-inline-start: 0px;
+}
+
+footer ul {
+  padding-left: 0px;
+}
+
+#reviews.third-width {
+    width: 400px;
+    height: 200px;
+    float: left;
+    border-bottom: 1px solid #dedbdc;
+    border-top: 1px solid #dedbdc;
+    box-sizing: border-box;
+    border-right: 1px solid #dedbdc;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#contact {
+    width: 400px;
+    height: 200px;
+    float: left;
+    border-bottom: 1px solid #dedbdc;
+    border-top: 1px solid #dedbdc;
+    box-sizing: border-box;
+    padding-left: 20px;
+}
+
+#bot-slogan {
+  text-align: center;
+  text-transform: uppercase;
+  width: auto;
+  clear: both;
+  padding: 20px;
+  font-size: 25px;
+}
+
+section span {
+  font-family: 'Dancing Script';
+  text-transform: lowercase;
+  color: red;
+}
